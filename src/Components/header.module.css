@@ -1,0 +1,42 @@
+/* Header.module.css */
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .navLinks {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navItem {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .appointmentButton {
+    background-color: #6a5acd;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .appointmentButton:hover {
+    background-color: #5a4abb;
+  }
+  
